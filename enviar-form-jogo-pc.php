@@ -24,5 +24,6 @@
         echo "<span style='color: red;'>error tem algo vazio</span>";
     }
     ?>
+    <?php $l->close() ?>
 </body>
 </html>
