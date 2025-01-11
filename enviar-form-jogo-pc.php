@@ -16,7 +16,7 @@
     $i = $_GET['imagem'] ?? '';
     if (!empty($n) and !empty($d) and !empty($p) and !empty($i)){
         if ($l->query("INSERT INTO `jogo_pc` VALUES (DEFAULT, '$n', '$d', '$p', '$i')") == true){
-            echo "<span style='color: rgb(0, 255, 0)'>Jogo de pc adcionado com sucesso<span class='material-symbols-outlined'>check</span><span>";
+            echo "<span style='color: rgb(0, 152, 0)'>Jogo de pc adcionado com sucesso<span class='material-symbols-outlined'>check</span><span>";
         } else {
             echo "<span style='color: red;'>error ao inserir dados</span>";
         }
